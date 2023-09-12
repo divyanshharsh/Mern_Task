@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(245, 241, 29);
+        }
+
+        .vertical-nav {
+            background-color: rgb(245, 241, 29);
+            padding-left: 10px;
+            padding-top: 10px;
+            font-family: verdana, Verdana, Geneva, Tahoma, sans-serif;
+            float: left;
+            margin-top: 20px;
+        }
+
+        .vertical-nav ul {
+            list-style: none;
+        }
+
+        .vertical-nav ul li a {
+            text-decoration: none;
+            display: block;
+            width: 250px;
+            background: white;
+            color: black;
+            box-shadow: 2px 2px 2px cadetblue;
+            border-radius: 8px;
+            margin: 5px;
+            padding: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .vertical-nav ul li a:hover {
+            background-color: rgb(142, 175, 237);
+            color: white;
+            transform: scale(1.1, 1.5);
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: left;
+            margin-left: 40px; /* Add some margin to create space between the two divs */
+            margin-top: 20px;
+        }
+        .right h1{
+            color: #e41212;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        /* Clear the float to prevent issues with following content */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .italics {
+            font-style: italic;
+            color: #e41212;
+            font-weight: bold;
+        }
+        .right p{
+            color: #e41212;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="left">
+        <nav class="vertical-nav">
+            <ul>
+                <li><a href="#">Home Page</a></li>
+                <li><a href="#">Musings</a></li>
+                <li><a href="#">My Town</a></li>
+                <li><a href="#">Links</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="right">
+        <h1>My first styled page</h1>
+        <br>
+        <br>
+        <p> Welcome to my styled page!</p><br>
+        <p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere...</p><br>
+        <p>There should be more here, but I don;t know what yet.</p><br>
+        <div>
+
+        </div>
+        <p class="italics"> Made 5 Aprail 2004</p>
+        <p class="italics">by myself</p>
+    </div>
+
+    <div class="clearfix"></div>
+</body>
+</html>

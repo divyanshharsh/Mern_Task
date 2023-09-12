@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form css</title>
+    <link rel="stylesheet" href="task11.css">
+</head>
+<body>
+    <!-- Body of Form starts -->
+  	<div class="container">
+      <form method="post" autocomplete="on">
+        <!--First name-->
+    		<div class="box">
+                <label for="firstName" class="fl fontLabel"> 
+                    Name: 
+                </label>
+    			<div class="new iconBox">
+                </div>
+    			<div class="fr">
+    				<input type="text" name="firstName" placeholder="First Name" class="textBox" autofocus="on" required>
+    			</div>
+    			<div class="clr">
+                </div>
+    		</div>
+    		<!--First name-->
+            <!---Email ID---->
+    		<div class="box">
+                <label for="email" class="fl fontLabel"> 
+                    Email ID: 
+                </label>
+                <div class="fl iconBox">
+                </div>
+                <div class="fr">
+                    <input type="email" required name="email" placeholder="Email Id" class="textBox">
+                </div>
+                <div class="clr"></div>
+            </div>
+            <!--Email ID----->
+            <!---Password------>
+    		<div class="box">
+                <label for="password" class="fl fontLabel"> Password </label>
+                      <div class="fl iconBox"></div>
+                      <div class="fr">
+                              <input type="Password" required name="password" placeholder="Password" class="textBox">
+                      </div>
+                      <div class="clr"></div>
+                  </div>
+                  <!---Password---->
+
+
+    		<!---Phone No.------>
+    		<div class="box">
+          <label for="phone" class="fl fontLabel"> Phone No.: </label>
+    			<div class="fl iconBox"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="phoneNo" maxlength="10" placeholder="Phone No." class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!---Phone No.---->
+            <!---Gender----->
+    		<div class="box radio">
+                <label for="gender" class="fl fontLabel"> 
+                    Gender: 
+                </label>
+                <input type="radio" name="Gender" value="Male" required> Male 
+                <input type="radio" name="Gender" value="Female" required> Female
+                <input type="radio" name="Gender" value="Female" required> Other
+            </div>
+            <!---Gender--->
+            <!--Zip Code-->
+    		<div class="box">
+                <label for="firstName" class="fl fontLabel"> 
+                    Zip Code: 
+                </label>
+    			<div class="new iconBox">
+                </div>
+    			<div class="fr">
+    				<input type="text" name="firstName" placeholder="Zip Code" class="textBox" autofocus="on" required>
+    			</div>
+    			<div class="clr">
+                </div>
+    		</div>
+    		<!--Zip Code-->
+            <!--First name-->
+    		<div class="box">
+                <label for="firstName" class="fl fontLabel"> 
+                    About: 
+                </label>
+    			<div class="new iconBox">
+                </div>
+    			<div class="fr">
+    				<textarea name="about" placeholder="Write About Yourself" class="about" autofocus="on" required rows="3" cols="40"></textarea>
+
+    			</div>
+    			<div class="clr">
+                </div>
+    		</div>
+    		<!--First name-->
+            <div class="box">
+                <label for="language" class="fl fontLabel">Language:</label>
+                <div class="options">
+                    <select id="language" name="language">
+                        <option value="english">English</option>
+                        <option value="spanish">Spanish</option>
+                        <option value="french">French</option>
+                        <option value="german">German</option>
+                        <!-- Add more language options as needed -->
+                    </select>
+                </div>
+                
+            </div>
+    		<!---Submit Button------>
+    		<div class="box" style="background: brown">
+    			<input type="Submit" name="Submit" class="submit" value="REGISTER">
+    		</div>
+    		<!---Submit Button----->
+      </form>
+  </div>
+  <!--Body of Form ends--->
+</body>
+</html>

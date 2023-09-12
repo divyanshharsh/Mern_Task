@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Reset default styles for the list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the vertical navigation bar */
+.navbar {
+    background-color: #0db9ed; /* Change the background color as needed */
+    width: 200px; /* Set the width of the vertical navigation bar */
+    margin-right: 20px; /* Add right margin for spacing */
+    float: left; /* Float the vertical navbar to the left */
+}
+
+/* Style the vertical navigation links */
+.navbar ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white; /* Change the text color as needed */
+    display: block;
+}
+
+/* Change the link color on hover */
+.navbar ul li a:hover {
+    background-color: #ce730a; /* Change the hover background color */
+}
+
+/* Style the horizontal navigation bar */
+.horizontal-navbar {
+    background-color: #0db9ed; /* Change the background color as needed */
+    margin-left: 20px; /* Add left margin for spacing */
+    float: left; /* Float the horizontal navbar to the left */
+}
+
+/* Style the horizontal navigation links */
+.horizontal-navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.horizontal-navbar li {
+    padding: 10px;
+    text-align: center;
+}
+
+.horizontal-navbar li a {
+    text-decoration: none;
+    color: white; /* Change the text color as needed */
+    display: block;
+}
+
+/* Change the link color on hover for horizontal links */
+.horizontal-navbar li a:hover {
+    background-color: #ce730a; /* Change the hover background color */
+}
+
+/* Clear the float to prevent overlap */
+.clear {
+    clear: both;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Bootstrap</a></li>
+    </ul>
+</div>
+
+<div class="horizontal-navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+    </ul>
+</div>
+
+<div class="clear"></div>
+</body>
+</html>

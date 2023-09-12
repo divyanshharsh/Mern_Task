@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Center the entire page */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Style for the outer list and border */
+        .list-container {
+            border: 2px solid #333; /* Add a border around the list container */
+            padding: 20px; /* Add some padding for spacing */
+            text-align: center; /* Center text within the container */
+        }
+
+        ul.outer-list {
+            list-style-type: disc; /* Change the list style type */
+            text-align: left; /* Align list items to the left */
+        }
+
+        /* Style for the inner list */
+        ul.inner-list {
+            list-style-type: circle; /* Change the list style type */
+            margin-left: 20px; /* Indent the inner list */
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-left: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="list-container">
+        <h1>Lists can be nested (list inside list):</h1>
+        <ul class="outer-list">
+            <li>Coffee</li>
+            <li>Tea
+                <ul class="inner-list">
+                    <li>Black Tea</li>
+                    <li>Green Tea</li>
+                </ul>
+            </li>
+            <li>Milk</li>
+        </ul>
+    </div>
+</body>
+</html>
