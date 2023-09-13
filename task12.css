@@ -1,0 +1,32 @@
+table{
+    width: 100%;
+    font-size: 16px;
+    margin-top: 21%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgb(13, 226, 155);
+}
+
+th, td {
+    padding: 8px;
+}
+th {
+    font-weight: 600;
+
+} 
+td {
+    text-align: left;
+}
+.shapes {
+    border-collapse: collapse;
+    width: 100%;
+}
+.shapes2{
+    padding: 10px;
+}
+.shapes3{
+    border-radius: 5px;
+}
+
